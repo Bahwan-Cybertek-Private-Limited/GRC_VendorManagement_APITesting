@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-09T21:57:19 IST" name="EWS API Testing" finished-at="2022-02-09T22:01:07 IST" duration-ms="227913">
+    <groups>
+    </groups>
+    <test started-at="2022-02-09T21:57:19 IST" name="Regression" finished-at="2022-02-09T22:01:07 IST" duration-ms="227913">
+      <class name="testcases.Ews">
+        <test-method is-config="true" signature="baseTest()[pri:0, instance:testcases.Ews@1d8bd0de]" started-at="2022-02-09T21:57:19 IST" name="baseTest" finished-at="2022-02-09T21:57:19 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method signature="getAlertDetails()[pri:1, instance:testcases.Ews@1d8bd0de]" started-at="2022-02-09T21:57:19 IST" name="getAlertDetails" finished-at="2022-02-09T22:00:23 IST" duration-ms="183262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlertDetails -->
+        <test-method signature="getGroupDetails()[pri:2, instance:testcases.Ews@1d8bd0de]" started-at="2022-02-09T22:00:23 IST" name="getGroupDetails" finished-at="2022-02-09T22:00:27 IST" duration-ms="4833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getGroupDetails -->
+        <test-method signature="getAlertConfiguration_Details()[pri:3, instance:testcases.Ews@1d8bd0de]" started-at="2022-02-09T22:00:27 IST" name="getAlertConfiguration_Details" finished-at="2022-02-09T22:00:35 IST" duration-ms="7966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlertConfiguration_Details -->
+        <test-method signature="getAlertStatus()[pri:4, instance:testcases.Ews@1d8bd0de]" started-at="2022-02-09T22:00:35 IST" name="getAlertStatus" finished-at="2022-02-09T22:01:07 IST" duration-ms="31317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlertStatus -->
+      </class> <!-- testcases.Ews -->
+    </test> <!-- Regression -->
+  </suite> <!-- EWS API Testing -->
+</testng-results>
